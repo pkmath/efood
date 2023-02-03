@@ -9,12 +9,10 @@
 # Table of Contents
 
 * [Project Structure](#project-structure)
-* [Part I SQL](#part-i–sql)
-* [Part II - Analyze Users](#use-the-api)
+* [Part I – SQL/Data Handling](#part-i--sqldata-handling)
+* [Part II - Analyze Users](#part-ii---analyze-users)
 * [Future Considerations](#future-considerations)
-
-* [Part III - Visualization](#future-considerations)
-
+* [Part III - Visualization](#part-iii---visualization)
 * [Clone the Application](#clone-the-application)
 * [Contributing](#contributing)
 
@@ -32,7 +30,7 @@
     
 
 
-## Part I SQL 
+## Part I – SQL/Data Handling
 
 
 
@@ -119,11 +117,25 @@ The above users group that I described is around 38% of total users. This is the
 
 ![viz1](https://user-images.githubusercontent.com/36280746/216702320-0add1981-df24-42df-90f1-1e46e980ae44.png)
 
+On the first dashboard, bar plot is straight forward to present total orders per day,
+however, values on y-axis (on the left side) could not appear as the values exists on each bar. Acquisitions and Jokers line plots are also 
+nice presented but the actual values of them are not clear to me (what is the y-axis on the right side show?) and the blue color values over the red 
+bars are confusing.
+
+The color selection on the second, multiline plot, is a bit confusing. Blue color over black background as well as lines' overlaping
+makes me put a lot of effort to spot which value macth which line. Also a title on the y-axis (right side) needed, once there are numbers there.
+
 
 ![viz2](https://user-images.githubusercontent.com/36280746/216702546-bbfeda23-6265-4d01-83c7-1fa5c9ff9542.png)
 
 
 
+On the second dashboard, I like the colors selection. Makes it more easy to read values. However, it is not clear to me, what the %Δ are compare with 
+(I guess previous week). Maybe it should be more clear by mention it on the title (or subtitle) as "Weekly performace ..."
+
+Moreover, I think would be usefull to be able to select which cities to show on the dashboard, to make it more easy to compare cities and filter out
+null entries from the table. 
+Also, some titles (for ex. "sales_poli", above Acquisitions column) are not clear what is the meaning.
 ## Clone the Application
 
 ``
