@@ -24,8 +24,8 @@
 
 
     ├── Efood                    
-    │   ├── SQL             # Functionality/features
-    │   └── Python          # Testing endpoints  
+    │   ├── SQL             # sql queries of Part I
+    │   └── Python          # Python script of Part II  
 
     
 
