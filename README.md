@@ -3,7 +3,7 @@
   <a>
     <img src="https://thetotalbusiness.com/wp-content/uploads/2020/11/efood-the-total-business.png" alt="Logo" width="250" height="150">
   </a>
-  <h3 align="center">Insights Analyst Main Assessment</h3>
+  <h3 align="center">Insights Analysis</h3>
 </p>
 
 # Table of Contents
@@ -24,8 +24,8 @@
 
 
     ├── Efood                    
-    │   ├── SQL             # sql queries of Part I
-    │   └── Python          # Python script of Part II  
+    │   ├── SQL             # sql queries 
+    │   └── Python          # Python script   
 
     
 
